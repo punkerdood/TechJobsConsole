@@ -57,7 +57,7 @@ namespace TechJobsConsole
                     // What is their search term?
                     Console.WriteLine("\nSearch term: ");
                     string searchTerm = Console.ReadLine();
-
+                    searchTerm = searchTerm.ToLower();
                     List<Dictionary<string, string>> searchResults;
 
                     // Fetch results
